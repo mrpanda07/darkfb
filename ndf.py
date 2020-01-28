@@ -1,10 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
 
-read -p "masukkan nickname anda:"
-echo "hi.. salam kenal dari saya tn" $nama
-echo "welcome to underground"
-
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
